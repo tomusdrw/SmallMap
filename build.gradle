@@ -7,5 +7,8 @@ repositories {
 	mavenCentral()
 }
 dependencies {
+	compile 'com.google.guava:guava:13.0.1'
+	testCompile 'org.easytesting:fest-assert:1.4'
+	testCompile 'org.mockito:mockito-core:1.9.5'
 	testCompile 'junit:junit:4.+'
 }
